@@ -12,6 +12,7 @@
 		EE26601F1F8DEA6B00E7A429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE26601D1F8DEA6B00E7A429 /* Main.storyboard */; };
 		EE2660211F8DEA6B00E7A429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2660201F8DEA6B00E7A429 /* Assets.xcassets */; };
 		EE2660241F8DEA6B00E7A429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2660221F8DEA6B00E7A429 /* LaunchScreen.storyboard */; };
+		EEF444CF1F8EB4DF00E22E41 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF444CE1F8EB4DF00E22E41 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EE2660201F8DEA6B00E7A429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2660231F8DEA6B00E7A429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE2660251F8DEA6B00E7A429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF444CE1F8EB4DF00E22E41 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		EE2660181F8DEA6B00E7A429 /* Dicee */ = {
 			isa = PBXGroup;
 			children = (
+				EEF444D11F8EB77400E22E41 /* View */,
+				EEF444D01F8EB76800E22E41 /* Controller */,
 				EE2660191F8DEA6B00E7A429 /* AppDelegate.swift */,
-				EE26601B1F8DEA6B00E7A429 /* ViewController.swift */,
 				EE26601D1F8DEA6B00E7A429 /* Main.storyboard */,
 				EE2660201F8DEA6B00E7A429 /* Assets.xcassets */,
 				EE2660221F8DEA6B00E7A429 /* LaunchScreen.storyboard */,
 				EE2660251F8DEA6B00E7A429 /* Info.plist */,
 			);
 			path = Dicee;
+			sourceTree = "<group>";
+		};
+		EEF444D01F8EB76800E22E41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE26601B1F8DEA6B00E7A429 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEF444D11F8EB77400E22E41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEF444CE1F8EB4DF00E22E41 /* RoundedButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE26601C1F8DEA6B00E7A429 /* ViewController.swift in Sources */,
+				EEF444CF1F8EB4DF00E22E41 /* RoundedButton.swift in Sources */,
 				EE26601A1F8DEA6B00E7A429 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
